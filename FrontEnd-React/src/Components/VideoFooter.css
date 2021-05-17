@@ -1,0 +1,39 @@
+.videoFooter{
+    position: relative;
+    color:white;
+    display: flex;
+    bottom: 180px;
+    margin-left:40px;
+}
+
+.videoFooter__text{
+    flex-grow: 1;
+}
+
+.music_icon{
+    position: absolute;
+    top:108px;
+    left: -31px;
+}
+.videoFooter_ticker > Ticker{
+    margin-left:3em;
+}
+
+.videoFooter_record_icon{
+    max-width: 50px;
+    position: absolute;
+    bottom: 0;
+    right:5px;
+    animation: rotateRecord_icon 2s infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes rotateRecord_icon{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
